@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 
 const FILE_PATH = './node_modules/xhr2/lib/xhr2.js';
