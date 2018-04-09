@@ -3,7 +3,7 @@
 const fs = require('fs');
 
 const FILE_PATH = './node_modules/xhr2/lib/xhr2.js';
-const STATEMENT_PATTERN = /this\._url\s=(.+);/;
+const STATEMENT_PATTERN = /this\._url\s=(.*)xhrUrl;/;
 
 run();
 
