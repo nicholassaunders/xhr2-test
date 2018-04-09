@@ -8,7 +8,7 @@ const STATEMENT_PATTERN = /this\._url\s=(.+);/;
 run();
 
 function run() {
-  const arg = process.argv[0];
+  const arg = process.argv.slice(2)[0];
 
   if (!arg) {
     return console.log('Usage:\n  xhr2-test <prefix>\n  xhr2-test --revert\n\nwhere <prefix> is the test server URL.');
