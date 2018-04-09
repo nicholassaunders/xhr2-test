@@ -3,7 +3,7 @@
 const fs = require('fs');
 
 const FILE_PATH = './node_modules/xhr2/lib/xhr2.js';
-const STATEMENT_PATTERN = /this\._url\s=(.*)xhrUrl;/;
+const STATEMENT_PATTERN = /xhrUrl\s=\sthis\._parseUrl\(url\);/;
 
 run();
 
@@ -15,8 +15,8 @@ function run() {
   }
 
   const statement = arg === '--revert'
-    ? 'this._url = xhrUrl;'
-    : `this._url = '${arg}' + xhrUrl;`;
+    ? 'xhrUrl = this._parseUrl(url);'
+    : `xhrUrl = this._parseUrl('${arg}' + url);`;
 
   const successMessage = arg === '--revert'
     ? 'xhr2-test: Reverted xhr2 library to original.'

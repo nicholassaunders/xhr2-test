@@ -10,5 +10,8 @@
   "bin": "main.js",
   "peerDependencies": {
     "xhr2": "0.1.4"
+  },
+  "devDependencies": {
+    "xhr2": "0.1.4"
   }
 }
