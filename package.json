@@ -1,7 +1,8 @@
 {
   "name": "xhr2-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Monkey-patch the xhr2 library for testing",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/therealnicksaunders/xhr2-test"
