@@ -1,6 +1,6 @@
 {
   "name": "xhr2-test",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Monkey-patch the xhr2 library for testing",
   "license": "MIT",
   "repository": {
