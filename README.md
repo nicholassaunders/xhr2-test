@@ -6,4 +6,4 @@ arbitrary prefix to any URL requested by xhr2. Most likely, you would use this t
 that provides a known response for a given request.
 
 For example, if your code makes a request to https://api.foo.ly/bar, you can run ```xhr2-test http://localhost:8080/```
-to send the request to ```http://localhost:8080/https://api.foo.ly/bar``` instead.
+to send the request to http://localhost:8080/https://api.foo.ly/bar instead.
