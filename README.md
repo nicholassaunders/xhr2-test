@@ -1,4 +1,7 @@
 # xhr2-test
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/nicholassaunders/xhr2-test.svg)](https://greenkeeper.io/)
+
 Monkey-patch the xhr2 library for testing.
 
 If you are using xhr2 to test your AJAX code in a Node context, then this tool might be for you. It allows you to add an
